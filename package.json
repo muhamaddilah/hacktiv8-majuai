@@ -1,0 +1,21 @@
+{
+  "name": "hacktiv8---bootcamp",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000h\u0000a\u0000c\u0000k\u0000t\u0000i\u0000v\u00008\u0000-\u0000m\u0000a\u0000j\u0000u\u0000a\u0000i\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhamaddilah/hacktiv8-majuai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/muhamaddilah/hacktiv8-majuai/issues"
+  },
+  "homepage": "https://github.com/muhamaddilah/hacktiv8-majuai#readme"
+}
