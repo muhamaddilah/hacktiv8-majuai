@@ -17,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/muhamaddilah/hacktiv8-majuai/issues"
   },
-  "homepage": "https://github.com/muhamaddilah/hacktiv8-majuai#readme"
+  "homepage": "https://github.com/muhamaddilah/hacktiv8-majuai#readme",
+  "dependencies": {
+    "@google/genai": "^1.50.1",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "multer": "^2.1.1"
+  }
 }

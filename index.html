@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini AI Chat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+
+    <div class="chat-container">
+        <header class="chat-header">
+            <div class="bot-info">
+                <div class="avatar">G</div>
+                <div>
+                    <h2>Gemini AI</h2>
+                    <span class="status">Online</span>
+                </div>
+            </div>
+        </header>
+
+        <div id="chat-box" class="chat-box">
+            <div class="message bot">
+                Halo! Saya asisten AI. Ada yang bisa saya bantu hari ini?
+            </div>
+        </div>
+
+        <form id="chat-form" class="chat-form">
+            <input 
+                type="text" 
+                id="user-input" 
+                placeholder="Ketik pesan di sini..." 
+                autocomplete="off"
+            >
+            <button type="submit" id="send-btn">
+                <svg viewBox="0 0 24 24" width="24" height="24">
+                    <path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+                </svg>
+            </button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
